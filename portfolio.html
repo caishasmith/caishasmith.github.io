@@ -1,19 +1,70 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <tittle>caisha</tittle>
+<tittle>
+    <link rel="stylesheet" href="style.css"> </link>
+</tittle>
     </head>
 
     <body>
       <div id="all-contents">
             <nav>
                 <h1>Sheba's Glorious Website</h1>
-                <ul id="nav-ul">
+                <ul id="nav ul">
                    <li class="nav-li">
                    <a class="nav-a" href="index.html">Home</a>
                  </li>
                  <li class="nav-li">
                    <a class="nav-a" href="portfolio.html">Portfolio</a>
+                   /* responsive web design */
+                   @media screen and (min-width: 120px) and (max-width: 1080px) {
+                     main {
+                       height: 100ch;
+                       zoom: 1.5;
+                       display: grid;
+                     }
+       
+                     h1 {
+                       font-size: 44px;
+                     }
+       
+                     h2 {
+                       font-size: 42px;
+                     }
+       
+                     h3 {
+                       font-size: 36px;
+                     }
+       
+                     #all-contents {
+                       height: 100ch;
+                       margin: none;
+                     }
+       
+                     a {
+                       font-size: 42px;
+                     }
+       
+                     .sidebar {
+                       margin-right: 0px;
+                       justify-content: center;
+                       align-items: center;
+                     }
+       
+                     .sidebar-img {
+                       width: 100%;
+                     }
+       
+                     p,
+                     li {
+                       font-size: 24px;
+                     }
+       
+                     .content {
+                       align-content: center;
+                       justify-content: center;
+                     }
+                 }
                  </li>
              </ul>
          </nav>
