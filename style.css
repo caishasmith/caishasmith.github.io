@@ -1,10 +1,11 @@
 body {
-    background: rgb(0, 17, 255);
-    color: rgb(255, 255, 0);
+    background: rgb(5, 247, 1);
+    color: rgb(5, 247, 1);
     padding: 10px;
     font-family: architects daughter;
-    border-style:solid;
-    border-color:rgb(255, 251, 0)
+    border-style:dashed;
+    border-color:rgb(17, 0, 255);
+    font-size: 20px;
 }
 #all-contents {
   max-width: 800px;
@@ -13,19 +14,24 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(255, 247, 0);
+    background: rgb(17, 0, 255);
    margin: 0 auto;
     display: flex;
-    padding: 10px;
+    padding: 50px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    border-style:double;
+    border-width: 20px;
 }
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(0, 4, 255);
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
+    font-style:Architects Daughter;
+    font-size: 30px;c
+
 }
 #nav-ul {
     list-style-image: none;
@@ -36,12 +42,15 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #3004f6;
+    color: #ffffff;
+    font-style:Architects Daughter;
+    font-size: 30px;
+
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(21, 4, 255);
+    background: rgb(17, 0, 255);
     display: flex;
 }
 .sidebar {
@@ -58,7 +67,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(5, 247, 1) ridge;
     padding: 8px;
 }
 h2, h3 {
@@ -66,7 +75,7 @@ h2, h3 {
 }
          /* portfolio styles */
          .content h1 {
-            color: black;
+            color: rgb(17, 0, 255);
         }
 
         #portfolio {
@@ -82,10 +91,10 @@ h2, h3 {
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: #ffffff;
         }
 
         #portfolio a {
             text-decoration: none;
-            color: #454545;
+            color: #44ff00;
         }
