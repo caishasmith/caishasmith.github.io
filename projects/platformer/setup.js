@@ -18,8 +18,8 @@ const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect t
 const player = {
   x: 50,
   y: 100,
-  speedX: 0,
-  speedY: 0,
+  speedX: 50,
+  speedY: 10,
   width: undefined,
   height: undefined,
   onGround: false,
@@ -72,9 +72,9 @@ let offsetY = 0;
 let platforms = [];
 let cannons = [];
 const cannonWidth = 118;
-const cannonHeight = 80;
+const cannonHeight = 118;
 let projectiles = [];
-const defaultProjectileWidth = 24;
+const defaultProjectileWidth = 60;
 const defaultProjectileHeight = defaultProjectileWidth;
 const collectableWidth = 40;
 const collectableHeight = 40;
@@ -98,3 +98,4 @@ var collectableList = {
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
   star1: {image: "images/collectables/star1.png"},
+}
