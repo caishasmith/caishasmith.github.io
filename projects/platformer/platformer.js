@@ -59,7 +59,8 @@ $(function () {
   createCannon("right", 175, 2000);
   createCollectable("star1", 500, 0, 20, 0.3);
   createCollectable("star1", 200, 0, 20, 0.3);
-  createCollectable("star1", 900, 0, 20, 0.3);
+  createCollectable("star1", 925, 0, 20, 0.3);
+  createCollectable("star1", 725, 0, 20 ,0.3);
  
     // TODO 2
     // Create collectables
