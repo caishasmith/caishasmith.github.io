@@ -49,16 +49,17 @@ $(function () {
       createPlatform(900, 225, 150, 10);
       createPlatform(170, 200, 100, 10);
       createPlatform(350, 325, 100, 10);
-      createPlatform(930, 160, 10, 70);
-      createPlatform(1000, 160, 10, 70);
+      createPlatform(920, 160, 10, 70);
+      createPlatform(1020, 160, 10, 70);
       createCannon("top", 700, 1800);
-      createCannon("right", 775, 2000);
+      createCannon("right", 775, 3000);
       createCannon("right", 450, 3000);
-      createCannon("right", 175, 2000);
+      createCannon("right", 175, 3000);
       createCollectable("star1", 500, 0, 20, 0.3);
       createCollectable("star1", 200, 0, 20, 0.3);
       createCollectable("star1", 950, 0, 20, 0.3);
       createCollectable("star1", 725, 0, 20, 0.3);
+      createCollectable("star1", )
   
       // TODO 2
       // Create collectables
