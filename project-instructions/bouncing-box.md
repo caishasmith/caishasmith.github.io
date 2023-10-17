@@ -939,7 +939,7 @@ In your bash terminal, enter the following commands, pressing ENTER after each o
 
 `git add .`
 
-`git commit -m 'add bouncing box'`
+`git commit -m 'add bouncing box'
 
 `git push`
 
