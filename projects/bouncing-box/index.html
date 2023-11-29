@@ -56,16 +56,15 @@
 			function changeBoxText(newText) {
 				box.text(newText);
 			}
-
+ 
 			//////////////////////////////////////////////////////////////////
 			/////////////////// YOUR CODE BELOW HERE /////////////////////////
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
 			var positionX = 0;
-			var points = 0
-            var speed = 10;
-
+			var points = 0;
+			var speed = 10;
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -73,15 +72,19 @@
 			turn it around! 
 			*/
 			function update() {
-				positionX = positionX + 10;
+				  /* Your Code to Increase positionX by 10 HERE */
+				positionX = positionX + speed;
 				moveBoxTo(positionX);
 
-			}
 			if(positionX > boardWidth){
 				speed = -speed;
-				speed *= -1;
-				speed = speed * -1;
-				message = "Change Direction of the Box"
+			}
+			if(positionX < 0) {
+				speed = -speed;
+				}
+			};
+			if(positionX < X-Coordinate){
+				return PositionX > 0;
 			}
 
 			/* 
@@ -90,13 +93,11 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				positionX = 3;
-
+				positionX = 0;
 				// your code to increase the points variable by 1
-
-				changeBoxText(1);
-
-			};
+				points = points + 1;
+   				changeBoxText(points);
+			}
 		})();
 	</script>
 </body>
