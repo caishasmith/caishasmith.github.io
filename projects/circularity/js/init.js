@@ -29,6 +29,7 @@ var init = function (window) {
 
         // TODO 3 / 7 : Call the drawCircle() function 
 /* Your Function Calls HERE */
+nameOfFunction(5);
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
