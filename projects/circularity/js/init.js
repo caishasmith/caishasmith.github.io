@@ -42,10 +42,19 @@ nameOfFunction(5);
         */
         function update() {
             // TODO 4 : Update the circle's position //
-
+  physikz.updatePosition(/* Your Bracket Notation HERE */);
+  physikz.updatePosition(/* Your Bracket Notation HERE */);
+  physikz.updatePosition(/* Your Bracket Notation HERE */);
+  physikz.updatePosition(/* Your Bracket Notation HERE */);
+  physikz.updatePosition(/* Your Bracket Notation HERE */);
+}
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
+            game.checkCirclePosition(/* Your Bracket Notation HERE */);
+            game.checkCirclePosition(/* Your Bracket Notation HERE */);
+            game.checkCirclePosition(/* Your Bracket Notation HERE */);
+            game.checkCirclePosition(/* Your Bracket Notation HERE */);
+            game.checkCirclePosition(/* Your Bracket Notation HERE */);
 
             // TODO 9 : Iterate over the array
            
